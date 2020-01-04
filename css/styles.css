@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins';
+}
+header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.board {
+	background: #24272E;
+	height: 90vh;
+}
+.scoreboard {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+	/*background: #fff;*/ border: 2px solid #fff;
+	align-items: center;
+	border-radius: 8px;
+	box-shadow: 0px 10px 30px rgba(70, 0, 0, 0.3);
+}
+.scoreboard .block {
+	color: #fff;
+	text-align: center;
+	height: 100%;
+	width: 100px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.scoreboard .number {
+	color: orange;
+}
+.text {
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 50px;
+}
+.choices {
+	display: flex;
+	justify-content: center;
+}
+.choice {
+	border: 3px solid #fff;
+	border-radius: 50%;
+	margin: 0 20px;
+	padding: 10px;
+	transition: all .5s ease;
+}
+.choice:hover{
+	background: red;
+	cursor: pointer;
+}
+.choice img{
+	width: 90px;
+}
+@media only screen and (max-width: 670px) {
+.choice img {
+	width: auto;
+}
+}
+.msg {
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+}
