@@ -74,3 +74,8 @@ header{
 	font-size: 18px;
 	text-align: center;
 }
+@media only screen and (max-width: 420px) {
+.scoreboard {
+	width: 290px;
+}
+}
